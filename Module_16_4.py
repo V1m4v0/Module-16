@@ -19,7 +19,7 @@ async def main_page():
 
 
 @app.get("/users")
-async def get_all_users() -> list[User]:
+async def get_all_users() -> List[User]:
     return users
 
 
